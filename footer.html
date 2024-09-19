@@ -1,0 +1,16 @@
+  <!--Footer-->
+  <div class="container">
+
+    <footer class="pb-3 px-0 pt-4">
+      <div class=" text-center">
+        <p class="m-0" id="currentYear"></p>
+      </div>
+    </footer>
+  </div>
+  <!--/Footer-->    
+
+  <script>
+    const yearElement = document.getElementById("currentYear");
+    const currentYear = new Date().getFullYear();
+    yearElement.textContent = "© " + currentYear + " Todos los diseños por Juan Palarino";
+  </script>
